@@ -1,0 +1,36 @@
+//
+//  ProductListAsyncImage.h
+//  TrendyBuy
+//
+//  Created by O Clock on 6/1/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AsyncImage : UIView {
+    NSURLConnection* connection; //keep a reference to the connection so we can cancel download in dealloc
+    NSMutableData* data; //keep reference to the data so we can collect it as it downloads
+    //but where is the UIImage reference? We keep it in self.subviews - no need to re-code what we have in the parent class
+    UIActivityIndicatorView *activityIndicator;
+    UIImageView               *imageView;
+    float framewidth;
+    float frameheigth;
+    float originalwidth;
+    float originalheigth;
+    NSString *viewType;
+    NSString *imageFile;
+    
+    UIImage *defaultImage;
+    
+}
+
+
+@property(nonatomic,retain) UIActivityIndicatorView *activityIndicator;
+
+- (void)loadImageFromURL:(NSURL*)url frameSize:(CGSize)_frameSize viewType:(NSString *)_viewType defaultImage:(UIImage *)defaultImg ;
+- (UIImage*) image;
+- (void) setLoadingImage;
+
+- (void) resizeImage:(UIImage *) imageToCrop resizing:(NSString *)resizeType targetSize:(CGSize)_targetSize ;
+@end

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MeViewController receivedGestureTapped:]:MeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "Received">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapViewController mapView:viewForAnnotation:]:MapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.userLocation.coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShareView tableView:didSelectRowAtIndexPath:]:ShareView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.phonenum">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapViewController viewDidLoad]:MapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.Address">
+            </PersistentString>
+            <PersistentString
+               value = "self.AddressPass">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MeViewController tableView:cellForRowAtIndexPath:]:MeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ShareView createShareViewWithTableViewCell:indexPath:]:ShareView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.phoneNumber">
+            </PersistentString>
+            <PersistentString
+               value = "[self.phoneNumber objectAtIndex:indexPath.row]">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "cell.detailTextLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReferNowViewController setReferChannel]:ReferNowViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.referChannel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReferNowViewController mailComposeController:didFinishWithResult:error:]:ReferNowViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.referChannel ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AlertView tableView:cellForRowAtIndexPath:]:AlertView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "lableCircle.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController getRefer]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.homeDetails.homeDetails">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CoreData deleteFeedsWithLoginId:]:CoreData.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "homedata">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReferNowTableViewCell createMePlaceWithIndexPath:referDetail:isProduct:]:ReferNowTableViewCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageSelectImage.image">
+            </PersistentString>
+            <PersistentString
+               value = "blur.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AlertView tableView:didSelectRowAtIndexPath:]:AlertView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AlertView tableView:viewForHeaderInSection:]:AlertView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MeViewController tableHeaderView]:MeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.meDetails.userDetail">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Helper validateReferChannelEnteriesWithError:params:]:Helper.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self webValidationWithWeb:[params objectForKey:@&quot;website&quot;]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReferNowViewController didReceiveReferCodeWithResponse:error:]:ReferNowViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ShareView setIndexPathWithShareType:indexPath:]:ShareView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "dictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginViewController didReceiveLoginWithResponse:error:]:LoginViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserManager setCurrentLocationWithAddress:latitude:laongitude:]:UserManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.Path">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReferNowTableViewCell placeSearchWithText:]:ReferNowTableViewCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ReferNowTableViewCell populateTextFromTextFiled:referNowType:]:ReferNowTableViewCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textfiled.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShareView tableView:cellForRowAtIndexPath:]:ShareView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ll.textLabel.text">
+            </PersistentString>
+            <PersistentString
+               value = "cell.detailTextLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShareView selectReferContactWithIndexPath:]:ShareView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ReferNowTableViewCell postShareChannel:]:ReferNowTableViewCell.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

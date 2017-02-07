@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="CarouselData" syncable="YES">
+        <attribute name="carousel" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="CategoryData" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="ContactData" syncable="YES">
+        <attribute name="contact" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="FeaturedData" syncable="YES">
+        <attribute name="featured" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="HomeData" syncable="YES">
+        <attribute name="home" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="MeData" syncable="YES">
+        <attribute name="feeds" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="friends" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="queries" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="refers" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="OfflineAsk" syncable="YES">
+        <attribute name="ask" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="OfflineRefer" syncable="YES">
+        <attribute name="refer" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CarouselData" positionX="-1260" positionY="-378" width="128" height="58"/>
+        <element name="CategoryData" positionX="-1629" positionY="-297" width="128" height="58"/>
+        <element name="ContactData" positionX="-1476" positionY="-531" width="128" height="58"/>
+        <element name="FeaturedData" positionX="-1404" positionY="-306" width="128" height="58"/>
+        <element name="HomeData" positionX="-1656" positionY="-441" width="128" height="58"/>
+        <element name="MeData" positionX="-1386" positionY="-207" width="128" height="103"/>
+        <element name="OfflineRefer" positionX="-1440" positionY="-360" width="128" height="60"/>
+        <element name="OfflineAsk" positionX="-1431" positionY="-351" width="128" height="60"/>
+    </elements>
+</model>
